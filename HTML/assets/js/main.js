@@ -182,23 +182,6 @@ function owlCarouselInit() {
 					}
 				}
 			});			
-				function setMySlider(){
-					if($('#team-style-slider .owl-item').hasClass('secondNlastActiveItem')){
-						$('#team-style-slider .owl-item').removeClass('secondNlastActiveItem');
-					}
-					$('#team-style-slider .owl-item.center').prev('.owl-item.active').addClass('secondNlastActiveItem');
-					$('#team-style-slider .owl-item.center').next('.owl-item.active').addClass('secondNlastActiveItem');
-				}
-				setMySlider();
-				
-				$('#team-style-slider .owl-prev').on('click',function(){
-					setMySlider();
-					
-				});
-				$('#team-style-slider .owl-next').on('click',function(){
-					setMySlider();
-					
-				});
 				
 				$(window).resize(function(){
 					setMySlider();
