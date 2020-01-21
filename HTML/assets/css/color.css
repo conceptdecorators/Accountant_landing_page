@@ -1,0 +1,24 @@
+.theme-heading span,
+.blog .caption a,
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover, .nav .open > a:focus, .nav .open > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover,{
+	color:#004eff;
+}
+.itg-button:hover, 
+.itg-button.active,
+.pricing:hover .itg-button,
+.blog-date,
+.cssload-loading i,
+.timer-circle
+{
+background: #004eff;
+
+}
+
+.slide-content,
+.itg-button:hover,
+.pricing:hover .itg-button,
+.about-us figure, 
+.contact-icon {
+border-color: #004eff;
+	
+}
